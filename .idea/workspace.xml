@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91058f61-b89b-42a2-86e4-05880a787542" name="Changes" comment="Completed CommaCode practice code">
-      <change afterPath="$PROJECT_DIR$/Chapter4/coinFlipStreaks.py" afterDir="false" />
+    <list default="true" id="91058f61-b89b-42a2-86e4-05880a787542" name="Changes" comment="Completed coinFlipStreaks practice">
+      <change afterPath="$PROJECT_DIR$/Chapter4/characterPictureGrid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Chapter4" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,9 +40,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.CommaCode.executor": "Run",
+    "Python.characterPictureGrid.executor": "Run",
     "Python.coinFlipStreaks.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "coinFlipStreaks"
+    "git-widget-placeholder": "Chapter4"
   }
 }]]></component>
   <component name="SharedIndexes">
