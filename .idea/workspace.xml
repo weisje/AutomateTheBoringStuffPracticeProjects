@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91058f61-b89b-42a2-86e4-05880a787542" name="Changes" comment="Completed characterPictureGrid.py. Finished chapter 4 practice projects.">
-      <change afterPath="$PROJECT_DIR$/Chapter5/inventory.py" afterDir="false" />
+    <list default="true" id="91058f61-b89b-42a2-86e4-05880a787542" name="Changes" comment="Completed inventory.py for Chapter5 Practice Projects">
+      <change afterPath="$PROJECT_DIR$/Chapter5/chessBoardValidator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.CommaCode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.characterPictureGrid.executor&quot;: &quot;Run&quot;,
-    &quot;Python.coinFlipStreaks.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.CommaCode.executor": "Run",
+    "Python.characterPictureGrid.executor": "Run",
+    "Python.chessBoardValidator.executor": "Run",
+    "Python.coinFlipStreaks.executor": "Run",
+    "Python.inventory.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Chapter5"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718363773958</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed inventory.py for Chapter5 Practice Projects">
+      <option name="closed" value="true" />
+      <created>1718712183897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718712183897</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +114,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Completed CommaCode practice code" />
     <MESSAGE value="Completed characterPictureGrid.py. Finished chapter 4 practice projects." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed characterPictureGrid.py. Finished chapter 4 practice projects." />
+    <MESSAGE value="Completed inventory.py for Chapter5 Practice Projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed inventory.py for Chapter5 Practice Projects" />
   </component>
 </project>
