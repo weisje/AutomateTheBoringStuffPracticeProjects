@@ -48,6 +48,7 @@ class RandomAfterOneRoll:
     def __init__(self, name):
 
         self.name = name # All zombies must have a name
+
     def turn(self, gameState):
         # gameState is a dict with info about the current state of the game.
         # You can choose to ignore it in your code.
@@ -61,13 +62,8 @@ class RandomAfterOneRoll:
         # 'rolls': [('yellow', 'brains'), ('red', 'footsteps'),
         # ('green', 'shotgun')]}
         # REPLACE THIS ZOMBIE CODE WITH YOUR OWN:
-        randomChoice = random.randint(0,1)
-        diceRollResults =zombiedice.roll()
-        while diceRollResults is not None:
-            if randomChoice == 0:
-                diceRollResults = zombiedice.roll()
-            else:
-                break
+        while diceRollResults and random.randint(0,1) == 0:
+            diceRollResults = zombiedice.roll()
 
 
 zombies = (

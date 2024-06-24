@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91058f61-b89b-42a2-86e4-05880a787542" name="Changes" comment="Updated inventory.py to include function to add items to character inventory for Chapter5 Practice Projects">
-      <change afterPath="$PROJECT_DIR$/Chapter6/myZombie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="91058f61-b89b-42a2-86e4-05880a787542" name="Changes" comment="Created a zombie class that randomly chooses whether or not to keep going after one roll" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,19 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.CommaCode.executor": "Run",
-    "Python.characterPictureGrid.executor": "Run",
-    "Python.chessBoardValidator.executor": "Run",
-    "Python.coinFlipStreaks.executor": "Run",
-    "Python.inventory.executor": "Run",
-    "Python.myZombie.executor": "Run",
-    "Python.printTable.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Chapter6"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.CommaCode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.characterPictureGrid.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chessBoardValidator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.coinFlipStreaks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inventory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.myZombie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.printTable.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Chapter6&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -106,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718715623337</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created a zombie class that randomly chooses whether or not to keep going after one roll">
+      <option name="closed" value="true" />
+      <created>1719229141216</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719229141216</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +131,7 @@
     <MESSAGE value="Completed characterPictureGrid.py. Finished chapter 4 practice projects." />
     <MESSAGE value="Completed inventory.py for Chapter5 Practice Projects" />
     <MESSAGE value="Completed chessBoardValidator.py for Chapter5 Practice Projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed chessBoardValidator.py for Chapter5 Practice Projects" />
+    <MESSAGE value="Created a zombie class that randomly chooses whether or not to keep going after one roll" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a zombie class that randomly chooses whether or not to keep going after one roll" />
   </component>
 </project>
