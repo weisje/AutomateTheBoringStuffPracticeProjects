@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91058f61-b89b-42a2-86e4-05880a787542" name="Changes" comment="Created a zombie class that rolls until it has two brains, then stops.">
+    <list default="true" id="91058f61-b89b-42a2-86e4-05880a787542" name="Changes" comment="Created a zombie class that rolls until it has two shotguns, then stops.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter6/myZombie.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter6/myZombie.py" afterDir="false" />
     </list>
@@ -122,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719250516917</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Created a zombie class that rolls until it has two shotguns, then stops.">
+      <option name="closed" value="true" />
+      <created>1719250762515</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719250762515</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +152,7 @@
     <MESSAGE value="Completed chessBoardValidator.py for Chapter5 Practice Projects" />
     <MESSAGE value="Created a zombie class that randomly chooses whether or not to keep going after one roll" />
     <MESSAGE value="Created a zombie class that rolls until it has two brains, then stops." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a zombie class that rolls until it has two brains, then stops." />
+    <MESSAGE value="Created a zombie class that rolls until it has two shotguns, then stops." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a zombie class that rolls until it has two shotguns, then stops." />
   </component>
 </project>

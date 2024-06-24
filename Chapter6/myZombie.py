@@ -118,15 +118,48 @@ class TwoShotgunStopZombie:
                 break
 
 
+class UpToFourRollsStopOnTwoShotguns:
+    def __init__(self, name):
+        self.name = name
+
+    def turn(self, gameState):
+        diceRollResults = zombiedice.roll() # first roll
+        turnCount = 1
+        turnDecider = random.randint(1, 4)
+        shotguns = 0
+        while diceRollResults is not None:
+            shotguns += diceRollResults['shotgun']
+            if shotguns < 2 and turnCount < turnDecider:
+                diceRollResults = zombiedice.roll() # roll again
+                turnCount += 1
+            else:
+                break
+
+
+class MoreBuckshotThanBrains:
+
+    def __init__(self, name):
+        self.name = name
+
+    def turn(self, gameState):
+        diceRollResults = zombiedice.roll() # Turn one roll
+        brains = 0
+        shotguns = 0
+        while diceRollResults is not None:
+            shotguns += diceRollResults['shotgun']
+            brains += diceRollResults['brains']
+            if shotguns <= brains:
+                diceRollResults = zombiedice.roll() # Roll Again
+            else:
+                break
 
 zombies = (
     zombiedice.examples.RandomCoinFlipZombie(name='Random'),
     zombiedice.examples.RollsUntilInTheLeadZombie(name='Until Leading'),
     zombiedice.examples.MinNumShotgunsThenStopsZombie(name='Stop at 2Shotguns', minShotguns=2),
     zombiedice.examples.MinNumShotgunsThenStopsZombie(name='Stop at 1Shotgun', minShotguns=1),
-    RandomAfterOneRoll(name='Random after one'),
-    TwoBrainStopZombie(name='Two Brain Stop'),
-    TwoShotgunStopZombie(name="Stop at Two Shotguns")
+    UpToFourRollsStopOnTwoShotguns(name="Up to 4 turns stop on 2 shotguns"),
+    MoreBuckshotThanBrains(name="MoreBuckshotThanBrains")
     # Add any other zombie players here.
     )
 # Uncomment one of the following lines to run in CLI or Web GUI mode:
