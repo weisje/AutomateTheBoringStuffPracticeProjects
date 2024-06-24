@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91058f61-b89b-42a2-86e4-05880a787542" name="Changes" comment="Updated inventory.py to include function to add items to character inventory for Chapter5 Practice Projects">
-      <change afterPath="$PROJECT_DIR$/Chapter6/printTable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/myZombie.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +44,7 @@
     "Python.chessBoardValidator.executor": "Run",
     "Python.coinFlipStreaks.executor": "Run",
     "Python.inventory.executor": "Run",
+    "Python.myZombie.executor": "Run",
     "Python.printTable.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Chapter6"
